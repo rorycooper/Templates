@@ -1,4 +1,0 @@
-- [x] Complete the initial setup
-- [ ] Implement the main feature
-- [ ] Write tests
-- [ ] Update documentation
