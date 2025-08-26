@@ -17,12 +17,12 @@ body:
       label: Team info
       description: Provide details about your team
       value: |
-        Team name":"
-        Slack channel":"
-        OCTO product owner":"
-        Product manager":"
-        Designer(s)":"
-        Dedicated content writer on your team (if you have one)":"
+        Team name: 
+        Slack channel: 
+        OCTO product owner: 
+        Product manager: 
+        Designer(s): 
+        Dedicated content writer on your team (if you have one): 
     validations:
       required: true
   - type: markdown
@@ -67,11 +67,11 @@ body:
       label: Supporting artifacts
       description:  Add links to all applicable artifacts and issues.
       value: |
-        - Product outline":"
-        - Collaboration Cycle ticket":"
-        - Content source of truth doc":"
-        - Figma file":"
-        - Mural":"
+        - Product outline: 
+        - Collaboration Cycle ticket: 
+        - Content source of truth doc: 
+        - Figma file: 
+        - Mural: 
     validations:
       required: true
   - type: markdown
