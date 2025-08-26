@@ -4,6 +4,15 @@ about: For sub-tasks related to content and IA support.
 title: "[TASK:] Task name"
 labels: content-ia-centralized-team
 assignees: ''
+body:
+- type: input
+  id: prevalence
+  attributes:
+    label: Bug prevalence
+    description: "How often do you or others encounter this bug?"
+    placeholder: "Whenever I visit the user account page (1-2 times a week)"
+  validations:
+    required: true
 
 ---
 
