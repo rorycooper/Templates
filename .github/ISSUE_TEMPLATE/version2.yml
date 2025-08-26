@@ -1,7 +1,16 @@
 name: Content and IA Centralized Team Product Support Request Form version 2
 description: Use this ticket to request support from the Centralized Content and Information Architecture team.
 title: "[INTAKE] Team Name: Initiative Name"
-body:
+body: |
+  ### Description
+    _A clear and concise description of the bug._
+  
+    ---
+  
+    ### Steps to Reproduce
+    1. Step one
+    2. Step two
+    3. Step three
   - type: markdown
     attributes:
       value: |
