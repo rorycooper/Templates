@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Content and IA Product Support Request
+        # Content and IA Product Support Request
   - type: markdown
     attributes:
       value: |
@@ -56,7 +56,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        About your initiative
+        ## About your initiative
   - type: checkboxes
     attributes:
       label: What audiences is your work for
@@ -89,10 +89,15 @@ body:
   - type: input
     attributes:
       label: Describe the "something else"
+  - type: textarea
+    attributes:
+      label:  Describe the work effort
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
-        Supporting artifacts
+        ### Supporting artifacts
 
         Add links to all applicable artifacts and issues.
   - type: input
@@ -119,7 +124,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Timeline
+        ### Timeline
 
         Provide information about your expected/planned timeline.
   - type: input
