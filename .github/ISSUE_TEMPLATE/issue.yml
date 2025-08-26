@@ -1,6 +1,7 @@
 ---
 name: Content and IA Product Support Task version 3
 title: "[TASK:] Task name"
+description: jasdlkfjdsaf
 labels: content-ia-centralized-team
 body:
 - type: input
