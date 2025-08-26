@@ -1,9 +1,7 @@
 ---
 name: Content and IA Product Support Task version 3
-about: For sub-tasks related to content and IA support.
 title: "[TASK:] Task name"
 labels: content-ia-centralized-team
-assignees: ''
 body:
 - type: input
   id: prevalence
