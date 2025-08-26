@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this ticket to request collaboration on a new initiative with the sitewide content, accessibility, and information architecture (CAIA) shared services team. Feel free to delete instructions and unselected options from the ticket to make it easier to scan.
+        Use this ticket to request collaboration on a new initiative with the sitewide Content ane Information Architecture shared services team.
         
         **Please note:** If you're requesting a page/URL redirect, a URL change, or a vanity URL, [please open a redirect, URL change, or vanity URL request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=redirect-request.md) instead.
   - type: markdown
@@ -52,47 +52,108 @@ body:
       label: Dedicated content writer on your team (if you have one)
     validations:
       required: false
-  - type: textarea
-    id: what-happened
+
+  - type: markdown
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: |
+        ***
+        ## About your initiative
+- type: checkboxes
+  attributes:
+    label: What audiences is your work for
+    options:
+      - label: Veterans and/or their family members or caregivers
+      - label: Internal designers and product team members (i.e. pattern or standards work)
+      - label: Other VA.gov audience (describe the audience below)
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: input
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+      label: Describe the other VA.gov audience
+    validations:
+      required: false
+- type: checkboxes
+  attributes:
+    label: Which of these descriptions best fits the work we’ll partner on?
+    options:
+      - label: Veterans and/or their family members or caregivers
+      - label: Internal designers and product team members (i.e. pattern or standards work)
+      - label: Other VA.gov audience (describe the audience below)
+      - label: Digitizing a new form
+      - label: Creating a new digital tool for Veterans or their beneficiaries
+      - label: Updating an existing form or tool
+      - label: Translating a form or tool into Spanish
+      - label: Adding new unauthenticated content to VA.gov
+      - label: Updating existing unauthenticated content on VA.gov
+      - label: Components, patterns, or general standards
+      - label: Something else (describe below)
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: input
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
+      label: Describe the "something else"
+    validations:
+      required: false
+
+- type: markdown
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      value: |
+        ### Supporting artifacts
+
+        _Add links to all applicable artifacts and issues._
+ - type: input
+  id: Product outline
+  attributes:
+    label: Product outline
+  validations:
+    required: true
+ - type: input
+  id: Collaboration Cycle ticket
+  attributes:
+    label: Collaboration Cycle ticket
+  validations:
+    required: true
+ - type: input
+  id: Content source of truth doc
+  attributes:
+    label: Content source of truth doc
+  validations:
+    required: false
+ - type: input
+  id: Figma file
+  attributes:
+    label: Figma file
+  validations:
+    required: true
+ - type: input
+  id: Mural
+  attributes:
+    label: Mural
+  validations:
+    required: false
+
+- type: markdown
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      value: |
+        ### Timeline
+
+       _Provide information about your expected/planned timeline._
+ - type: input
+  id: Estimated launch
+  attributes:
+    label: Estimated launch
+  validations:
+    required: true
+ - type: input
+  id: Where are you at in your design/development process?
+  attributes:
+    label: Where are you at in your design/development process?
+  validations:
+    required: true
+
+ - type: input
+  id: If a staged launch is planned, provide details.
+  attributes:
+    label: If a staged launch is planned, provide details.
+  validations:
+    required: false
