@@ -98,9 +98,9 @@ body:
   - type: markdown
       attributes:
         value: |
-          "### Supporting artifacts"
+          "### Supporting artifacts
   
-          _Add links to all applicable artifacts and issues._
+          _Add links to all applicable artifacts and issues._"
    - type: input
     id: Product outline
     attributes:
