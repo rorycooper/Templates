@@ -100,57 +100,57 @@ body:
         Supporting artifacts
   
         Add links to all applicable artifacts and issues.
-   - type: input
+  - type: input
     id: Product outline
     attributes:
       label: Product outline
     validations:
       required: true
-   - type: input
+  - type: input
     id: Collaboration Cycle ticket
     attributes:
-      label: Collaboration Cycle ticket
+     label: Collaboration Cycle ticket
     validations:
-      required: true
-   - type: input
+       required: true
+  - type: input
     id: Content source of truth doc
     attributes:
       label: Content source of truth doc
     validations:
       required: false
-   - type: input
+  - type: input
     id: Figma file
     attributes:
       label: Figma file
     validations:
       required: true
-   - type: input
+  - type: input
     id: Mural
     attributes:
       label: Mural
     validations:
-      required: false
+        required: false
   
   - type: markdown
-      attributes:
-        value: |
+    attributes:
+      value: |
           Timeline
   
          Provide information about your expected/planned timeline.
-   - type: input
+  - type: input
     id: Estimated launch
     attributes:
       label: Estimated launch
     validations:
       required: true
-   - type: input
+  - type: input
     id: Where are you at in your design/development process?
     attributes:
       label: Where are you at in your design/development process?
     validations:
       required: true
   
-   - type: input
+  - type: input
     id: If a staged launch is planned, provide details.
     attributes:
       label: If a staged launch is planned, provide details.
