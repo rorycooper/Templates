@@ -65,8 +65,8 @@ body:
         - label: Internal designers and product team members (i.e. pattern or standards
             work)
         - label: Other VA.gov audience (describe the audience below)
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     attributes:
       label: Describe the other VA.gov audience
