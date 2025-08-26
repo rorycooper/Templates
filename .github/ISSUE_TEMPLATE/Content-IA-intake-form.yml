@@ -68,7 +68,7 @@ body:
       validations:
         required: true
   - type: input
-      attributes:
+    attributes:
         label: Describe the other VA.gov audience
       validations:
         required: false
