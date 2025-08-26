@@ -6,13 +6,50 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+        "# Content and IA Product Support Request"
+  - type: markdown
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      value: |
+        Use this ticket to request collaboration on a new initiative with the sitewide content, accessibility, and information architecture (CAIA) shared services team. Feel free to delete instructions and unselected options from the ticket to make it easier to scan.
+        |
+        **Please note:** If you're requesting a page/URL redirect, a URL change, or a vanity URL, [please open a redirect, URL change, or vanity URL request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=redirect-request.md) instead.
+  - type: markdown
+    attributes:
+      value: |
+        "## Team info"
+  - type: input
+    attributes:
+      label: Product name
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Team name
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Slack channel
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: OCTO product owner
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Product manager
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Designer(s)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Dedicated content writer on your team (if you have one)
     validations:
       required: false
   - type: textarea
