@@ -69,9 +69,9 @@ body:
         required: true
   - type: input
     attributes:
-        label: Describe the other VA.gov audience
+      label: Describe the other VA.gov audience
       validations:
-        required: false
+      required: false
   - type: checkboxes
     attributes:
       label: Which of these descriptions best fits the work we’ll partner on?
