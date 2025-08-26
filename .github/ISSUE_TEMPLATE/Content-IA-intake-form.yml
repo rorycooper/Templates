@@ -15,7 +15,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Team info
+        "## Team info"
   - type: input
     attributes:
       label: Product name
@@ -55,8 +55,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ***
-        ## About your initiative
+        "***
+        ## About your initiative"
   - type: checkboxes
     attributes:
       label: What audiences is your work for
@@ -93,66 +93,3 @@ body:
         label: Describe the "something else"
       validations:
         required: false
-  
-  - type: markdown
-      attributes:
-        value: |
-          ### Supporting artifacts
-  
-          _Add links to all applicable artifacts and issues._
-   - type: input
-    id: Product outline
-    attributes:
-      label: Product outline
-    validations:
-      required: true
-   - type: input
-    id: Collaboration Cycle ticket
-    attributes:
-      label: Collaboration Cycle ticket
-    validations:
-      required: true
-   - type: input
-    id: Content source of truth doc
-    attributes:
-      label: Content source of truth doc
-    validations:
-      required: false
-   - type: input
-    id: Figma file
-    attributes:
-      label: Figma file
-    validations:
-      required: true
-   - type: input
-    id: Mural
-    attributes:
-      label: Mural
-    validations:
-      required: false
-  
-  - type: markdown
-      attributes:
-        value: |
-          ### Timeline
-  
-         _Provide information about your expected/planned timeline._
-   - type: input
-    id: Estimated launch
-    attributes:
-      label: Estimated launch
-    validations:
-      required: true
-   - type: input
-    id: Where are you at in your design/development process?
-    attributes:
-      label: Where are you at in your design/development process?
-    validations:
-      required: true
-  
-   - type: input
-    id: If a staged launch is planned, provide details.
-    attributes:
-      label: If a staged launch is planned, provide details.
-    validations:
-      required: false
