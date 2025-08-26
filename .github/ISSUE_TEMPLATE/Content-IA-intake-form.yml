@@ -5,17 +5,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Content and IA Product Support Request
+        Content and IA Product Support Request
   - type: markdown
     attributes:
       value: |
         Use this ticket to request collaboration on a new initiative with the sitewide Content ane Information Architecture shared services team.
         
-        **Please note:** If you're requesting a page/URL redirect, a URL change, or a vanity URL, [please open a redirect, URL change, or vanity URL request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=redirect-request.md) instead.
+        Please note: If you're requesting a page/URL redirect, a URL change, or a vanity URL, [please open a redirect, URL change, or vanity URL request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=redirect-request.md) instead.
   - type: markdown
     attributes:
       value: |
-        "## Team info"
+        ## Team info
   - type: input
     attributes:
       label: Product name
@@ -56,8 +56,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        "***
-        ## About your initiative"
+        About your initiative
   - type: checkboxes
     attributes:
       label: What audiences is your work for
@@ -98,9 +97,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Supporting artifacts
+        Supporting artifacts
   
-        _Add links to all applicable artifacts and issues._
+        Add links to all applicable artifacts and issues.
    - type: input
     id: Product outline
     attributes:
@@ -135,9 +134,9 @@ body:
   - type: markdown
       attributes:
         value: |
-          ### Timeline
+          Timeline
   
-         _Provide information about your expected/planned timeline._
+         Provide information about your expected/planned timeline.
    - type: input
     id: Estimated launch
     attributes:
