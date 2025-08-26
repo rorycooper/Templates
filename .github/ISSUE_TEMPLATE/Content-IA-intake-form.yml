@@ -53,8 +53,6 @@ body:
   - type: input
     attributes:
       label: Dedicated content writer on your team (if you have one)
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: |
@@ -72,8 +70,6 @@ body:
   - type: input
     attributes:
       label: Describe the other VA.gov audience
-      validations:
-        required: false
   - type: checkboxes
     attributes:
       label: Which of these descriptions best fits the work we’ll partner on?
@@ -93,8 +89,6 @@ body:
   - type: input
     attributes:
       label: Describe the "something else"
-      validations:
-        required: false
   - type: markdown
     attributes:
       value: |
@@ -117,8 +111,6 @@ body:
     id: Content source of truth doc
     attributes:
       label: Content source of truth doc
-    validations:
-      required: false
   - type: input
     id: Figma file
     attributes:
@@ -129,8 +121,6 @@ body:
     id: Mural
     attributes:
       label: Mural
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: |
@@ -153,5 +143,3 @@ body:
     id: If a staged launch is planned, provide details.
     attributes:
       label: If a staged launch is planned, provide details.
-    validations:
-      required: false
