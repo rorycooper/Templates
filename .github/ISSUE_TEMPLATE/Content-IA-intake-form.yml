@@ -87,8 +87,6 @@ body:
         - label: Updating existing unauthenticated content on VA.gov
         - label: Components, patterns, or general standards
         - label: Something else (describe below)
-      validations:
-        required: true
     - type: input
       attributes:
         label: Describe the "something else"
