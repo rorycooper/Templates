@@ -96,29 +96,24 @@ body:
 
         Add links to all applicable artifacts and issues.
   - type: input
-    id: Product outline
     attributes:
       label: Product outline
     validations:
       required: true
   - type: input
-    id: Collaboration Cycle ticket
     attributes:
       label: Collaboration Cycle ticket
     validations:
       required: true
   - type: input
-    id: Content source of truth doc
     attributes:
       label: Content source of truth doc
   - type: input
-    id: Figma file
     attributes:
       label: Figma file
     validations:
       required: true
   - type: input
-    id: Mural
     attributes:
       label: Mural
   - type: markdown
@@ -128,18 +123,15 @@ body:
 
         Provide information about your expected/planned timeline.
   - type: input
-    id: Estimated launch
     attributes:
       label: Estimated launch
     validations:
       required: true
   - type: input
-    id: Where are you at in your design/development process?
     attributes:
       label: Where are you at in your design/development process?
     validations:
       required: true
   - type: input
-    id: If a staged launch is planned, provide details.
     attributes:
       label: If a staged launch is planned, provide details.
