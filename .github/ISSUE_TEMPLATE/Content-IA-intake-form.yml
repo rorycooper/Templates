@@ -10,7 +10,7 @@ body:
         Content and IA Product Support Request
   - type: markdown
     attributes:
-      value: >
+      value: |
         Use this ticket to request collaboration on a new initiative with the
         sitewide Content ane Information Architecture shared services team.
 
