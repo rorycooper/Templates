@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        "# Content and IA Product Support Request"
+        # Content and IA Product Support Request
   - type: markdown
     attributes:
       value: |
