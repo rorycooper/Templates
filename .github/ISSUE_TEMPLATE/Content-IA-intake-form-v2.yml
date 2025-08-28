@@ -65,15 +65,15 @@ body:
     validations:
       required: true
   - type: textarea
-      attributes:
-        label: Supporting artifacts
-        description: "Add links to all applicable artifacts and issues"
-        value: |
-          - Product outline: 
-          - Collaboration Cycle ticket: 
-          - Content source of truth doc: 
-          - Figma file: 
-          - Mural: 
+    attributes:
+      label: Supporting artifacts
+      description: "Add links to all applicable artifacts and issues"
+      value: |
+        - Product outline: 
+        - Collaboration Cycle ticket: 
+        - Content source of truth doc: 
+        - Figma file: 
+        - Mural: 
   - type: input
     attributes:
       label: Estimated launch
