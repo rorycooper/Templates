@@ -42,10 +42,6 @@ body:
     attributes:
       label: Which of these descriptions best fits the work we’ll partner on?
       options:
-        - label: Veterans and/or their family members or caregivers
-        - label: Internal designers and product team members (i.e. pattern or standards
-            work)
-        - label: Other VA.gov audience (describe the audience below)
         - label: Digitizing a new form
         - label: Creating a new digital tool for Veterans or their beneficiaries
         - label: Updating an existing form or tool
