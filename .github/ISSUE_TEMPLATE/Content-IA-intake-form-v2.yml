@@ -1,0 +1,89 @@
+---
+name: Content and IA Centralized Team Product Support Request Form
+description: Use this ticket to request support from the Centralized Content and Information Architecture team.
+title: "[INTAKE] Team Name: Initiative Name"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Content and IA Product Support Request
+  - type: markdown
+    attributes:
+      value: |
+        Use this ticket to request collaboration on a new initiative with the sitewide Content and Information Architecture shared services team.
+        
+        **Note:** If you're requesting a page/URL redirect, a URL change, or a vanity URL, [please open a redirect, URL change, or vanity URL request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=redirect-request.md) instead.
+  - type: textarea
+    attributes:
+      label: Team info
+      description: "Enter information about your team"
+      value: |
+        - Product name: 
+        - Team name: 
+        - Slack channel: 
+        - OCTO product owner: 
+        - Product manager: 
+        - Designer(s): 
+        - Dedicated content writer on your team (if you have one): 
+  - type: checkboxes
+    attributes:
+      label: What audiences is your work for
+      options:
+        - label: Veterans and/or their family members or caregivers
+        - label: Internal designers and product team members (i.e. pattern or standards
+            work)
+        - label: Other VA.gov audience (describe below)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Other VA.gov audience
+  - type: checkboxes
+    attributes:
+      label: Which of these descriptions best fits the work we’ll partner on?
+      options:
+        - label: Veterans and/or their family members or caregivers
+        - label: Internal designers and product team members (i.e. pattern or standards
+            work)
+        - label: Other VA.gov audience (describe the audience below)
+        - label: Digitizing a new form
+        - label: Creating a new digital tool for Veterans or their beneficiaries
+        - label: Updating an existing form or tool
+        - label: Translating a form or tool into Spanish
+        - label: Adding new unauthenticated content to VA.gov
+        - label: Updating existing unauthenticated content on VA.gov
+        - label: Components, patterns, or general standards
+        - label: Something else (describe below)
+      validations:
+        required: true
+  - type: input
+    attributes:
+      label: Describe the "something else"
+  - type: textarea
+    attributes:
+      label:  Describe the work effort. What is the content ask?
+    validations:
+      required: true
+  - type: textarea
+      attributes:
+        label: Supporting artifacts
+        description: "Add links to all applicable artifacts and issues"
+        value: |
+          - Product outline: 
+          - Collaboration Cycle ticket: 
+          - Content source of truth doc: 
+          - Figma file: 
+          - Mural: 
+  - type: input
+    attributes:
+      label: Estimated launch
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Where are you at in your design/development process?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: If a staged launch is planned, provide details.
