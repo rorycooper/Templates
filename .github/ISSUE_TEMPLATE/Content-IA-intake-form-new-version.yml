@@ -13,7 +13,7 @@ body:
       label: Team info
       description: "Enter information about your team"
       value: |
-        - _**Product name:**_ 
+        - **Product name:**
         - **Team name:** 
         - **Slack channel:** 
         - **OCTO product owner:** 
