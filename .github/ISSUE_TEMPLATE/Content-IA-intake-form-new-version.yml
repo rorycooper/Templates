@@ -29,7 +29,6 @@ body:
         - label: VA mobile app users
         - label: Internal designers and product team members (i.e. pattern or standards work)
         - label: Other (please describe)
-    validations:
       required: true
   - type: input
     attributes:
