@@ -11,7 +11,7 @@ body:
   - type: textarea
     attributes:
       label: Team info
-      description: "Enter information about your team"
+      description: "Enter _information_ about your team"
       value: |
         - **Product name:** 
         - **Team name:** 
