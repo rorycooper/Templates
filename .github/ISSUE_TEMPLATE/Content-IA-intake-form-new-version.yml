@@ -39,11 +39,11 @@ body:
     attributes:
       label: Type of work
       options:
-        - label: "Digitizing a _new_ form"
-        - label: Creating a _new_ digital tool
-        - label: Updating an _existing_ form or tool
+        - label: Digitizing a new form
+        - label: Creating a new digital tool
+        - label: Updating an existing form or tool
         - label: Translating a form or tool into Spanish
-        - label: Adding _new_ unauthenticated content to VA.gov
+        - label: Adding "_"new"_" unauthenticated content to VA.gov
         - label: Updating _existing_ unauthenticated content on VA.gov
         - label:  Creating or updating components, patterns, or general standards
         - label: Other (_please describe_)
