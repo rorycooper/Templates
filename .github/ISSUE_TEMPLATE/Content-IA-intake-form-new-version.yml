@@ -65,7 +65,7 @@ body:
         - **Mural:** 
   - type: input
     attributes:
-      label: Where are you at in your design/development process?:
+      label: Where are you at in your design/development process?
     validations:
       required: true
   - type: input
