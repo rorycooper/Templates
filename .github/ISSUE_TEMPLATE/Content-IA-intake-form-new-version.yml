@@ -56,7 +56,7 @@ body:
   - type: textarea
     attributes:
       label: Supporting artifacts
-      description: "Add links to all applicable artifacts and issues"
+      description: "Add links to all applicable artifacts and issues. Feel free to add more."
       value: |
         - **Product outline:** 
         - **Content source of truth doc:** 
