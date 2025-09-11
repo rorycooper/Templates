@@ -1,0 +1,83 @@
+---
+name: Content and IA Centralized Team Product Support Request Form new version (YAML)
+description: Use this ticket to request support from the Centralized Content and Information Architecture team.
+title: "[INTAKE] Team Name: Initiative Name"
+labels: content-ia-centralized-team
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Content and IA Product Support Request
+  - type: textarea
+    attributes:
+      label: Team info
+      description: "Enter information about your team"
+      value: |
+        - **Product name:** 
+        - **Team name:** 
+        - **Slack channel:** 
+        - **OCTO product owner:** 
+        - **Product manager:** 
+        - **Designer(s):** 
+        - **Content designer (if you have one):** 
+        - **Other stakeholders:** 
+  - type: checkboxes
+    attributes:
+      label: Audience
+      options:
+        - label: VA.gov users
+        - label: VA mobile app users
+        - label: Internal designers and product team members (i.e. pattern or standards work)
+        - label: Other (_please describe_)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Other audience
+      placeholder: Describe the other audience if checked above
+  - type: checkboxes
+    attributes:
+      label: Type of work
+      options:
+        - label: Digitizing a _new_ form
+        - label: Creating a _new_ digital tool
+        - label: Updating an _existing_ form or tool
+        - label: Translating a form or tool into Spanish
+        - label: Adding _new_ unauthenticated content to VA.gov
+        - label: Updating _existing_ unauthenticated content on VA.gov
+        - label:  Creating or updating components, patterns, or general standards
+        - label: Other (_please describe_)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Other type of work
+      placeholder: Describe the other type of work if checked above
+  - type: textarea
+    attributes:
+      label: Supporting artifacts
+      description: "Add links to all applicable artifacts and issues"
+      value: |
+        - **Product outline:** 
+        - **Content source of truth doc:** 
+        - **Figma file:** 
+        - **Mural:** 
+  - type: input
+    attributes:
+      label: Where are you at in your design/development process?:
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Estimated launch timeline:
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Hard deadline for Content and IA delivery (if applicable):
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: If a staged launch is planned, provide details.
