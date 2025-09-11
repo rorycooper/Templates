@@ -70,14 +70,14 @@ body:
       required: true
   - type: input
     attributes:
-      label: Estimated launch timeline:
+      label: Estimated launch timeline
     validations:
       required: true
   - type: input
     attributes:
-      label: Hard deadline for Content and IA delivery (if applicable):
+      label: Hard deadline for Content and IA delivery (if applicable)
     validations:
       required: true
   - type: input
     attributes:
-      label: If a staged launch is planned, provide details.
+      label: If a staged launch is planned, provide details
