@@ -11,9 +11,9 @@ body:
   - type: textarea
     attributes:
       label: Team info
-      description: "Enter _information_ about your team"
+      description: "Enter information about your team"
       value: |
-        - **Product name:** 
+        - _**Product name:**_ 
         - **Team name:** 
         - **Slack channel:** 
         - **OCTO product owner:** 
