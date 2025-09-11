@@ -39,7 +39,7 @@ body:
     attributes:
       label: Type of work
       options:
-        - label: Digitizing a _new_ form
+        - label: "Digitizing a _new_ form"
         - label: Creating a _new_ digital tool
         - label: Updating an _existing_ form or tool
         - label: Translating a form or tool into Spanish
