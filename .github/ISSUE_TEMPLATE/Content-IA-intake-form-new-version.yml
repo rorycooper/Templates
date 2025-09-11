@@ -43,10 +43,10 @@ body:
         - label: Creating a new digital tool
         - label: Updating an existing form or tool
         - label: Translating a form or tool into Spanish
-        - label: Adding "_"new"_" unauthenticated content to VA.gov
-        - label: Updating _existing_ unauthenticated content on VA.gov
+        - label: Adding new unauthenticated content to VA.gov
+        - label: Updating existing unauthenticated content on VA.gov
         - label:  Creating or updating components, patterns, or general standards
-        - label: Other (_please describe_)
+        - label: Other (please describe)
     validations:
       required: true
   - type: input
@@ -75,8 +75,6 @@ body:
   - type: input
     attributes:
       label: Hard deadline for Content and IA delivery (if applicable)
-    validations:
-      required: true
   - type: input
     attributes:
       label: If a staged launch is planned, provide details
