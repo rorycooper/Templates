@@ -49,6 +49,13 @@ _Add links to all applicable artifacts and issues. Feel free to add more._
 ### Content ask
 _What do you need from the Content and IA team? Be as detailed as possible, and include info on specific pages/screens within your Figma file that need to be addressed._
 
+### How do you want content recommendations delivered?
+- [ ] Leave Figma comments
+- [ ] Edit Figma file directly
+- [ ] Provide our own Figma doc
+- [ ] Provide our own Word doc
+- [ ] Edit your content source of truth doc
+
 ### Timeline
 - **Where are you at in your design/development process?:**
 - **Estimated launch timeline:**
