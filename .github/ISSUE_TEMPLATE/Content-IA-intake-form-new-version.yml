@@ -66,6 +66,15 @@ body:
     attributes:
       label: Content ask
       placeholder: What do you need from the Content and IA team? Be as detailed as possible, and include info on specific pages/screens within your Figma file that need to be addressed.
+  - type: dropdown
+    attributes:
+      label: How do you want content recommendations delivered?
+      options:
+        - Leave Figma comments
+        - Edit Figma file directly
+        - Provide our own Figma doc
+        - Provide our own Word doc
+        - Edit your content source of truth doc
   - type: input
     attributes:
       label: Where are you at in your design/development process?
