@@ -62,6 +62,10 @@ body:
         - **Content source of truth doc:** 
         - **Figma file:** 
         - **Mural:** 
+  - type: textarea
+    attributes:
+      label: Content ask
+      placeholder: What do you need from the Content and IA team? Be as detailed as possible, and include info on specific pages/screens within your Figma file that need to be addressed.
   - type: input
     attributes:
       label: Where are you at in your design/development process?
