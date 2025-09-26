@@ -26,3 +26,7 @@ body:
       description: "Enter a deadline or describe the timeline for this task."
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Other notes
+      description: "Enter any other notes for the task."
