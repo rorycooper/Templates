@@ -19,6 +19,7 @@ body:
         - **OCTO product owner:** 
         - **Product manager:** 
         - **Designer(s):** 
+        - **SME**: 
         - **Content designer (if you have one):** 
         - **Other stakeholders:** 
   - type: checkboxes
@@ -56,19 +57,31 @@ body:
   - type: textarea
     attributes:
       label: Supporting artifacts
-      description: "Add links to all applicable artifacts and issues. Feel free to add more."
+      description: "Add links to all applicable artifacts and issues. Feel free to add others."
       value: |
         - **Product outline:** 
         - **Content source of truth doc:** 
         - **Figma file:** 
         - **Mural:** 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Project background
+      placeholder: "What problem are you trying to solve? What's the user story?"
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Content ask
-      placeholder: What do you need from the Content and IA team? Be as detailed as possible, and include info on specific pages/screens within your Figma file that need to be addressed.
+      placeholder: |
+        What do you need from the Content and IA team? Be as detailed as possible.
+        Include info on specific pages/screens within your Figma file that need to be addressed.
+    validations:
+      required: true
   - type: dropdown
     attributes:
-      label: How do you want content recommendations delivered?
+      label: How do you want our content feedback delivered?
       options:
         - Leave Figma comments
         - Edit Figma file directly
