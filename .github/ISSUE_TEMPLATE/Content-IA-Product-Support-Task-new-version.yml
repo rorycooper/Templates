@@ -1,0 +1,28 @@
+---
+name: Content and IA Product Support Task new version (YAML)
+description: Use this ticket to create Content and IA sub-tasks.
+title: "[TASK:] Task name"
+labels: content-ia-centralized-team
+body:
+  - type: textarea
+    attributes:
+      label: Task description
+      description: "Describe the work that this issue entails."
+      placeholder: "What content work is involved with this task? How does it relate to the larger project?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Supporting artifacts
+      description: "Add links to all applicable artifacts and issues. Feel free to add others."
+      value: |
+        - **Product outline:** 
+        - **Content source of truth doc:** 
+        - **Figma file:** 
+        - **Mural:** 
+  - type: input
+    attributes:
+      label: Timeline
+      description: "Enter a deadline or describe the timeline for this task."
+    validations:
+      required: true
