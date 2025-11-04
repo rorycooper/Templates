@@ -7,24 +7,19 @@ assignees: ''
 
 ---
 
-### Overview
+### Task description
+_What content work is involved with this task? How does it relate to the larger project?_
 
-#### Task description
-_What details are necessary for understanding the specific work or request tracked by this issue?_
+### Supporting artifacts
 
-#### Parent epic/work effort
+- **Product outline:** 
+- **Content source of truth doc:** 
+- **Figma file:** 
+- **Mural:** 
 
-- [Name and issue # of parent epic]()
-
-#### Relevant links and artifacts
-
-- [Link or artifact]()
-- [Link or artifact]()
-- [Link or artifact]()
-
-#### Timeline
-_When does this task need to be completed by?_
-
+### Timeline
+_Enter a deadline or describe the timeline for this task._
 
 ### Acceptance Criteria
 - [ ] Criteria 1...
+- [ ] 
