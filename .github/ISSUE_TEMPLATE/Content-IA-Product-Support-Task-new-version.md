@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-### Task description
+### Description
 _What content work is involved with this task? How does it relate to the larger project?_
 
 ### Supporting artifacts
@@ -20,6 +20,11 @@ _What content work is involved with this task? How does it relate to the larger 
 ### Timeline
 _Enter a deadline or describe the timeline for this task._
 
-### Acceptance Criteria
-- [ ] Criteria 1...
-- [ ] Criteria 2...
+### Tasks
+- [ ] Task 1...
+- [ ] Task 2...
+
+### Acceptance criteria
+- [ ] All tasks are completed
+- [ ] All content is delivered
+- [ ] _Add/edit criteria as appropriate for your ticket_
